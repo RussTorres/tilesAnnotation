@@ -60,8 +60,6 @@ if __name__ == '__main__':
         if (os.path.isfile(f) and f.endswith(ext)):
             # assumes that the downsampled images are named after their z value
             z = int(f[len(downsampledImgPath)+1:-4])
-            if z > 2272:
-                break
             # sectionId = str(z) + '.0'
             # print sectionId
 
